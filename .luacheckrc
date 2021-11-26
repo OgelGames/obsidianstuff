@@ -6,4 +6,5 @@ globals = {
 read_globals = {
 	"armor",
 	"toolranks",
+	"pick_axe_tweaks",
 }
