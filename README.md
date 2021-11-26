@@ -49,6 +49,7 @@ And if `3d_armor` is installed, the following armor pieces:
 
 - [`3d_armor`](https://github.com/minetest-mods/3d_armor)
 - [`toolranks`](https://github.com/lisacvuk/minetest-toolranks)
+- [`pick_axe_tweaks`](https://github.com/wsor4035/pick_axe_tweaks)
 
 ## Installation
 
