@@ -46,10 +46,8 @@ end
 
 -- Pickaxe-Tweaks support
 
-if minetest.get_modpath("pick_axe_tweaks") and minetest.global_exists("pick_axe_tweaks") then
-	
-	pick_axe_tweaks.register_pick_axes({ "obsidianstuff:pick" })
-
+if minetest.get_modpath("pick_axe_tweaks") then
+	pick_axe_tweaks.register_pick_axes({"obsidianstuff:pick"})
 end
 
 
