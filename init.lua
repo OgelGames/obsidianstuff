@@ -44,13 +44,6 @@ if minetest.get_modpath("toolranks") then
 end
 
 
--- Pickaxe-Tweaks support
-
-if minetest.get_modpath("pick_axe_tweaks") then
-	pick_axe_tweaks.register_pick_axes({"obsidianstuff:pick"})
-end
-
-
 -- Aliases
 
 minetest.register_alias("obsidianstuff:helmet", "obsidianstuff:helmet_obsidian")
