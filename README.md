@@ -53,7 +53,7 @@ And if `3d_armor` is installed, the following armor pieces:
 
 ## Installation
 
-Download the [master branch](https://github.com/OgelGames/obsidianstuff/archive/master.zip) or the [latest release](https://github.com/OgelGames/obsidianstuff/releases), and follow [the usual installation steps](https://dev.minetest.net/Installing_Mods).
+Download the [master branch](https://github.com/OgelGames/obsidianstuff/archive/master.zip) or the [latest release](https://github.com/OgelGames/obsidianstuff/releases), and follow [the usual installation steps](https://wiki.minetest.net/Installing_Mods).
 
 Alternatively, you can download and install the mod from [ContentDB](https://content.minetest.net/packages/OgelGames/obsidianstuff) or the online content tab in Minetest.
 
