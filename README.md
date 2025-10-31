@@ -44,7 +44,7 @@ And if `3d_armor` is installed, the following armor pieces:
 
 **Required**
 
-- `default` (included in [Minetest Game](https://github.com/minetest/minetest_game))
+- [`xcompat`](https://github.com/mt-mods/xcompat)
 
 **Optional**
 
