@@ -9,7 +9,7 @@ armor:register_armor("obsidianstuff:helmet_obsidian", {
 	damage_groups = {cracky = 2, snappy = 2, choppy = 2, level = 2}
 })
 
-minetest.register_craft({
+core.register_craft({
 	output = "obsidianstuff:helmet_obsidian",
 	recipe = {
 		{"default:obsidian", "default:obsidian", "default:obsidian"},
@@ -29,7 +29,7 @@ armor:register_armor("obsidianstuff:chestplate_obsidian", {
 	damage_groups = {cracky = 2, snappy = 2, choppy = 2, level = 2}
 })
 
-minetest.register_craft({
+core.register_craft({
 	output = "obsidianstuff:chestplate_obsidian",
 	recipe = {
 		{"default:obsidian", "", "default:obsidian"},
@@ -49,7 +49,7 @@ armor:register_armor("obsidianstuff:leggings_obsidian", {
 	damage_groups = {cracky = 2, snappy = 2, choppy = 2, level = 2}
 })
 
-minetest.register_craft({
+core.register_craft({
 	output = "obsidianstuff:leggings_obsidian",
 	recipe = {
 		{"default:obsidian", "default:obsidian", "default:obsidian"},
@@ -69,7 +69,7 @@ armor:register_armor("obsidianstuff:boots_obsidian", {
 	damage_groups = {cracky = 2, snappy = 2, choppy = 2, level = 2}
 })
 
-minetest.register_craft({
+core.register_craft({
 	output = "obsidianstuff:boots_obsidian",
 	recipe = {
 		{"default:obsidian", "", "default:obsidian"},
@@ -80,7 +80,7 @@ minetest.register_craft({
 
 -- Shield
 
-if minetest.get_modpath("shields") then
+if core.get_modpath("shields") then
 
 	armor:register_armor("obsidianstuff:shield_obsidian", {
 		description = "Obsidian Shield",
@@ -90,7 +90,7 @@ if minetest.get_modpath("shields") then
 		damage_groups = {cracky = 2, snappy = 2, choppy = 2, level = 2}
 	})
 
-	minetest.register_craft({
+	core.register_craft({
 		output = "obsidianstuff:shield_obsidian",
 		recipe = {
 			{"default:obsidian", "default:obsidian", "default:obsidian"},

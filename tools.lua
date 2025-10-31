@@ -1,7 +1,7 @@
 
 -- Pickaxe
 
-minetest.register_tool("obsidianstuff:pick", {
+core.register_tool("obsidianstuff:pick", {
 	description = "Obsidian Pickaxe",
 	inventory_image = "obsidianstuff_pick.png",
 	tool_capabilities = {
@@ -20,7 +20,7 @@ minetest.register_tool("obsidianstuff:pick", {
 	groups = {pickaxe = 1}
 })
 
-minetest.register_craft({
+core.register_craft({
     output = "obsidianstuff:pick",
     recipe = {
         {"default:obsidian", "default:obsidian", "default:obsidian"},
@@ -32,7 +32,7 @@ minetest.register_craft({
 
 -- Shovel
 
-minetest.register_tool("obsidianstuff:shovel", {
+core.register_tool("obsidianstuff:shovel", {
     description = "Obsidian Shovel",
     inventory_image = "obsidianstuff_shovel.png",
     wield_image = "obsidianstuff_shovel.png^[transformR90",
@@ -52,7 +52,7 @@ minetest.register_tool("obsidianstuff:shovel", {
 	groups = {shovel = 1}
 })
 
-minetest.register_craft({
+core.register_craft({
     output = "obsidianstuff:shovel",
     recipe = {
         {"default:obsidian"},
@@ -64,7 +64,7 @@ minetest.register_craft({
 
 -- Axe
 
-minetest.register_tool("obsidianstuff:axe", {
+core.register_tool("obsidianstuff:axe", {
     description = "Obsidian Axe",
     inventory_image = "obsidianstuff_axe.png",
 	tool_capabilities = {
@@ -83,7 +83,7 @@ minetest.register_tool("obsidianstuff:axe", {
 	groups = {axe = 1}
 })
 
-minetest.register_craft({
+core.register_craft({
     output = "obsidianstuff:axe",
     recipe = {
         {"default:obsidian", "default:obsidian", ""},
@@ -95,7 +95,7 @@ minetest.register_craft({
 
 -- Sword
 
-minetest.register_tool("obsidianstuff:sword", {
+core.register_tool("obsidianstuff:sword", {
     description = "Obsidian Sword",
     inventory_image = "obsidianstuff_sword.png",
 	tool_capabilities = {
@@ -114,7 +114,7 @@ minetest.register_tool("obsidianstuff:sword", {
 	groups = {sword = 1}
 })
 
-minetest.register_craft({
+core.register_craft({
     output = "obsidianstuff:sword",
     recipe = {
         {"default:obsidian"},
