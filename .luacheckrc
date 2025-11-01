@@ -4,6 +4,7 @@ globals = {
 }
 
 read_globals = {
+	"xcompat",
 	"armor",
 	"toolranks",
 }
